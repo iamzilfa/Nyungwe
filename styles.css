@@ -1,30 +1,228 @@
-#pitch
-{
-  background-image: url("https://goo.gl/TqNW4t"); 
+*{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.Search{
+  border-radius:25px;
+  border: 1px solid gray;
+}
+
+/*Navigation bar stars here*/
+
+.container nav{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px;
+
+ }
+
+ul{
+  list-style-type: none; 
+  text-transform: uppercase;
+
+}
+
+.container nav ul li{
+    display: inline;
+}
+ 
+
+.container nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    color: black;
+
+}
+ 
+.container nav ul li a:hover{
+    color:grey;
+}
+ 
+h2{
+  font-family: 'Srisakdi', cursive;
+  font-size:50px;
+  color: green;
+  cursor: pointer;
+}
+
+/*Navigation bar ends here*/
+    
+
+/*HEADER section starts here*/ 
+
+header{
+  background-image: url(https://piperandheath.com/wp-content/uploads/2018/10/oo_nyungwe_house_landscape_sunrise_mist_at_nyungwe_forest_28_9_2017_LR_1020x525_acf_cropped.jpg);
   background-repeat: no-repeat;
-  height: 480px;
-  width: 20%;
   background-size: cover;
+  background-position: right; 
+  height: 100vh;  
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#Home .title{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: auto;
-  font-family:"sans-serif";
-  color: white;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+   text-align: center;
 }
 
-#defence
-{
-  height: 15%;
+h1{
+font-size: 70px;
+letter-spacing: 3px;
+font-family: 'Piedra', cursive;
+color:#1f4f1b;
+margin-top: 200px;
+height: 100px;
+transition: height 2s ease-in-out;
+text-shadow: 5px 5px 5px whitesmoke;
+}
+
+h3{
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Kaushan Script', cursive;
+  color:whitesmoke;
+  
+}
+
+h1:hover{
+  height: 150px;
+  letter-spacing: 1px;
+}
+
+/* header ends here*/
+
+/*Main section stars here*/
+
+#Activities .Nyungwe{
+  font-family: 'Shadows Into Light', cursive;
+  margin: 10px 10px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px green;
+}
+
+#Gallery .Pictures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  flex-direction: row;
+  margin: 0 10px;
+  
+}
+
+.Pictures img{
+  padding: 0.5px;
+  height: 400px;
+  transition: height 2s  ease-in-out;
+}
+
+
+img:hover{
+  height: 420px;
+}
+
+/*Main section ends here*/
+
+/*FOOTER*/
+
+footer{
+  margin-left:  10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color:#001a00;
+
+}
+
+
+.final{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;;
 }
 
-#midfield
-{
-  height: 15%;
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
+
+/*icons*/
+
+.final .Icons ul li{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.final .Icons ul li a{
+  padding: 3px;
+}
+
+.fab{
+  color:#008000;
+}
+
+.fas{
+  color:#008000 ;
+}
+
+/*Form*/
+
+input[type=email],textarea{
+  width: 300px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+input{
+  height: 25px;
+}
+input[type=submit]{
+  width: 300px;
+  border: none;
+  background-color: green;
+  color:white;
+  height: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+
+  
+}
+input[type=submit]:hover{
+   cursor: pointer;
+   background-color:#f2f2f2;
+   color:green;
+}
+
+.Copyright{
+  color:#737373;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Search{
+  border-radius:25px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.Search:hover{
+  background-color: #f2f2f2;
+
+}
+
+.fa-search{
+  color: green;
+  cursor: pointer;
+
 }
