@@ -1,4 +1,4 @@
-# {Zilfa Cyamani}
+# Zilfa Cyamani
 #### {It was a first Project about how to create a webpage using Html and Css only}, {20/09/2020}
 #### By **{It was an individual project so no contrbutor}**
 ## Description
