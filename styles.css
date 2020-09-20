@@ -1,101 +1,94 @@
-*{
+* {
   max-width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
-.Search{
-  border-radius:25px;
+.Search {
+  border-radius: 25px;
   border: 1px solid gray;
 }
 
 /*Navigation bar stars here*/
 
-.container nav{
+.container nav {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 30px;
+}
 
- }
-
-ul{
-  list-style-type: none; 
+ul {
+  list-style-type: none;
   text-transform: uppercase;
-
 }
 
-.container nav ul li{
-    display: inline;
+.container nav ul li {
+  display: inline;
 }
- 
 
-.container nav ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    padding: 20px;
-    color: black;
+.container nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  color: black;
+}
 
+.container nav ul li a:hover {
+  color: grey;
 }
- 
-.container nav ul li a:hover{
-    color:grey;
-}
- 
-h2{
+
+h2 {
   font-family: 'Srisakdi', cursive;
-  font-size:50px;
+  font-size: 50px;
   color: green;
   cursor: pointer;
 }
 
 /*Navigation bar ends here*/
-    
 
-/*HEADER section starts here*/ 
+/*HEADER section starts here*/
 
-header{
+header {
   background-image: url(https://piperandheath.com/wp-content/uploads/2018/10/oo_nyungwe_house_landscape_sunrise_mist_at_nyungwe_forest_28_9_2017_LR_1020x525_acf_cropped.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right; 
-  height: 100vh;  
+  background-position: right;
+  height: 100vh;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-#Home .title{
+#Home .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
   transition: 0.5s ease-in-out;
-   text-align: center;
+  text-align: center;
 }
 
-h1{
-font-size: 70px;
-letter-spacing: 3px;
-font-family: 'Piedra', cursive;
-color:#1f4f1b;
-margin-top: 200px;
-height: 100px;
-transition: height 2s ease-in-out;
-text-shadow: 5px 5px 5px whitesmoke;
+h1 {
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: 'Piedra', cursive;
+  color: #1f4f1b;
+  margin-top: 200px;
+  height: 100px;
+  transition: height 2s ease-in-out;
+  text-shadow: 5px 5px 5px whitesmoke;
 }
 
-h3{
+h3 {
   font-size: 30px;
   font-style: italic;
   font-family: 'Kaushan Script', cursive;
-  color:whitesmoke;
-  
+  color: whitesmoke;
 }
 
-h1:hover{
+h1:hover {
   height: 150px;
   letter-spacing: 1px;
 }
@@ -104,30 +97,28 @@ h1:hover{
 
 /*Main section stars here*/
 
-#Activities .Nyungwe{
+#Activities .Nyungwe {
   font-family: 'Shadows Into Light', cursive;
   margin: 10px 10px;
   font-size: 30px;
   text-shadow: 2px 2px 5px green;
 }
 
-#Gallery .Pictures{
+#Gallery .Pictures {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   flex-direction: row;
   margin: 0 10px;
-  
 }
 
-.Pictures img{
+.Pictures img {
   padding: 0.5px;
   height: 400px;
-  transition: height 2s  ease-in-out;
+  transition: height 2s ease-in-out;
 }
 
-
-img:hover{
+img:hover {
   height: 420px;
 }
 
@@ -135,46 +126,44 @@ img:hover{
 
 /*FOOTER*/
 
-footer{
-  margin-left:  10px;
+footer {
+  margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  background-color:#001a00;
-
+  background-color: #001a00;
 }
 
-
-.final{
+.final {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 10px;;
+  margin: 0 10px;
+  ;
 }
-
 
 /*icons*/
 
-.final .Icons ul li{
+.final .Icons ul li {
   display: inline-block;
   margin-top: 20px;
 }
 
-.final .Icons ul li a{
+.final .Icons ul li a {
   padding: 3px;
 }
 
-.fab{
-  color:#008000;
+.fab {
+  color: #008000;
 }
 
-.fas{
-  color:#008000 ;
+.fas {
+  color: #008000;
 }
 
 /*Form*/
 
-input[type=email],textarea{
+input[type=email], textarea {
   width: 300px;
   background: transparent;
   border: none;
@@ -183,46 +172,43 @@ input[type=email],textarea{
   font-family: 'Times New Roman', Times, serif;
 }
 
-
-input{
+input {
   height: 25px;
 }
-input[type=submit]{
+
+input[type=submit] {
   width: 300px;
   border: none;
   background-color: green;
-  color:white;
+  color: white;
   height: 25px;
   margin-top: 15px;
   font-weight: bold;
-
-  
-}
-input[type=submit]:hover{
-   cursor: pointer;
-   background-color:#f2f2f2;
-   color:green;
 }
 
-.Copyright{
-  color:#737373;
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: green;
+}
+
+.Copyright {
+  color: #737373;
   font-weight: bold;
   text-align: center;
 }
 
-.Search{
-  border-radius:25px;
+.Search {
+  border-radius: 25px;
   border: 1px solid gray;
   cursor: pointer;
 }
 
-.Search:hover{
+.Search:hover {
   background-color: #f2f2f2;
-
 }
 
-.fa-search{
+.fa-search {
   color: green;
   cursor: pointer;
-
 }
