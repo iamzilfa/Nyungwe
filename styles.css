@@ -144,12 +144,12 @@ footer {
 
 /*icons*/
 
-.final .Icons ul li {
+.final .about ul li {
   display: inline-block;
   margin-top: 20px;
 }
 
-.final .Icons ul li a {
+.final .about ul li a {
   padding: 3px;
 }
 
@@ -177,7 +177,8 @@ input {
 }
 
 input[type=submit] {
-  width: 300px;
+  width: 200px;
+  border-radius: 20px;
   border: none;
   background-color: green;
   color: white;
