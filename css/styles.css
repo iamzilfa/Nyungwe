@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-.Search {
-  border-radius: 25px;
-  border: 1px solid gray;
-}
 
 /*Navigation bar stars here*/
 
@@ -17,12 +13,14 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 30px;
+  margin: 0 10px;
 }
 
 ul {
   list-style-type: none;
   text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
 }
 
 .container nav ul li {
@@ -37,14 +35,21 @@ ul {
 }
 
 .container nav ul li a:hover {
-  color: grey;
+  color:green;
+}
+
+.Search {
+  border-radius: 25px;
+  border: 1px solid gray;
+  height: 30px;
 }
 
 h2 {
-  font-family: 'Srisakdi', cursive;
+  font-family: 'Tangerine', cursive;
   font-size: 50px;
   color: green;
   cursor: pointer;
+  font-weight: bold;
 }
 
 /*Navigation bar ends here*/
@@ -99,11 +104,16 @@ h1:hover {
 
 #Activities .Nyungwe {
   font-family: 'Shadows Into Light', cursive;
-  margin: 10px 10px;
+  margin:40px;
   font-size: 30px;
   text-shadow: 2px 2px 5px green;
 }
 
+#Gallery {
+  margin-bottom: 50px;
+}
+
+/* 
 #Gallery .Pictures {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +130,7 @@ h1:hover {
 
 img:hover {
   height: 420px;
-}
+} */
 
 /*Main section ends here*/
 
@@ -130,7 +140,7 @@ footer {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  background-color: #001a00;
+  background-color: #011101;
 }
 
 .final {
@@ -144,13 +154,12 @@ footer {
 
 /*icons*/
 
-.final .about ul li {
+.final .icons ul li {
   display: inline-block;
-  margin-top: 20px;
 }
 
-.final .about ul li a {
-  padding: 3px;
+.final .icons ul li a {
+  padding: 12px;
 }
 
 .fab {
@@ -164,7 +173,7 @@ footer {
 /*Form*/
 
 input[type=email], textarea {
-  width: 300px;
+  width: 250px;
   background: transparent;
   border: none;
   border-bottom: 1px solid gray;
@@ -173,11 +182,11 @@ input[type=email], textarea {
 }
 
 input {
-  height: 25px;
+  height: 20px;
 }
 
 input[type=submit] {
-  width: 200px;
+  width: 250px;
   border-radius: 20px;
   border: none;
   background-color: green;
@@ -196,7 +205,7 @@ input[type=submit]:hover {
 .Copyright {
   color: #737373;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .Search {
@@ -213,3 +222,4 @@ input[type=submit]:hover {
   color: green;
   cursor: pointer;
 }
+
